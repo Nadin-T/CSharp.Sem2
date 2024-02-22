@@ -53,32 +53,8 @@ Console.Clear();
 //Напишите программу, которая на вход принимает натуральное число N,
 //а на выходе показывает его цифры через запятую.
 
-// int num = 568;
-// int count = 0;
-// int remains = num;
 
-// while (num > 0)
-// {
-//     remains = num % 10;
-//     count = count + 1;
-//     num = num / 10;
-// }
-// Console.Write(remains);
-
-
-// for (count - 1; i >= 0; i--)
-// {
-//     int remains = num % 10;
-//     Console.Write(remains);
-
-//     num = num / 10;
-//     if (remains != 0)
-//     {
-//         Console.Write(", ");
-//     }
-// }
-
-int num = 100100;
+int num = 18;
 int count = 0;
 int num1 = num;
 int remainsNum = num;
@@ -99,7 +75,6 @@ else
     while (num >= d10)
     {
         d10 = d10 * 10;
-    //        Console.WriteLine(d10);
     }
     
     int result = remainsNum;
@@ -110,7 +85,6 @@ else
 
         count = count - 1;
         remainsNum = remainsNum % (d10 / 10);
-        //    Console.WriteLine(count);
         if (count > 0)
         {
             Console.Write(", ");
@@ -124,10 +98,7 @@ else
                     if (count > 0) { Console.Write(", "); }
                 }
             }
-
         }
-        // Console.WriteLine(num);
-        //    Console.WriteLine(remainsNum);
         d10 = d10 / 10;
     }
 }
