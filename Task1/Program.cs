@@ -78,7 +78,7 @@ Console.Clear();
 //     }
 // }
 
-int num = 10;
+int num = 100100;
 int count = 0;
 int num1 = num;
 int remainsNum = num;
@@ -88,8 +88,6 @@ while (num1 > 0)
     num1 = num1 / 10;
     count = count + 1;
 }
-// Console.WriteLine(count);
-// Console.WriteLine(num);
 
 if (num >= 0 && num < 10)
 {
@@ -98,24 +96,36 @@ if (num >= 0 && num < 10)
 else
 {
     int d10 = 10;
-    while (num > d10)
+    while (num >= d10)
     {
         d10 = d10 * 10;
-        //    Console.WriteLine(d10);
+    //        Console.WriteLine(d10);
     }
+    
     int result = remainsNum;
-    while (remainsNum < d10 && remainsNum != 0)
+    while (remainsNum < d10 && remainsNum > 0)
     {
         result = remainsNum / (d10 / 10);
         Console.Write(result);
 
         count = count - 1;
+        remainsNum = remainsNum % (d10 / 10);
         //    Console.WriteLine(count);
         if (count > 0)
         {
             Console.Write(", ");
+            if (remainsNum == 0)
+            {
+                while (count > 0)
+                {
+                    Console.Write(remainsNum);
+
+                    count = count - 1;
+                    if (count > 0) { Console.Write(", "); }
+                }
+            }
+
         }
-        remainsNum = remainsNum % (d10 / 10);
         // Console.WriteLine(num);
         //    Console.WriteLine(remainsNum);
         d10 = d10 / 10;
