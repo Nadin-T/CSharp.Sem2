@@ -1,0 +1,14 @@
+D:\Данные по программированию\C#\Sem2\Task1\obj\Debug\net8.0\Task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Данные по программированию\C#\Sem2\Task1\obj\Debug\net8.0\Task1.AssemblyInfoInputs.cache
+D:\Данные по программированию\C#\Sem2\Task1\obj\Debug\net8.0\Task1.AssemblyInfo.cs
+D:\Данные по программированию\C#\Sem2\Task1\obj\Debug\net8.0\Task1.csproj.CoreCompileInputs.cache
+D:\Данные по программированию\C#\Sem2\Task1\bin\Debug\net8.0\Task1.exe
+D:\Данные по программированию\C#\Sem2\Task1\bin\Debug\net8.0\Task1.deps.json
+D:\Данные по программированию\C#\Sem2\Task1\bin\Debug\net8.0\Task1.runtimeconfig.json
+D:\Данные по программированию\C#\Sem2\Task1\bin\Debug\net8.0\Task1.dll
+D:\Данные по программированию\C#\Sem2\Task1\bin\Debug\net8.0\Task1.pdb
+D:\Данные по программированию\C#\Sem2\Task1\obj\Debug\net8.0\Task1.dll
+D:\Данные по программированию\C#\Sem2\Task1\obj\Debug\net8.0\refint\Task1.dll
+D:\Данные по программированию\C#\Sem2\Task1\obj\Debug\net8.0\Task1.pdb
+D:\Данные по программированию\C#\Sem2\Task1\obj\Debug\net8.0\Task1.genruntimeconfig.cache
+D:\Данные по программированию\C#\Sem2\Task1\obj\Debug\net8.0\ref\Task1.dll
